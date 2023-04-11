@@ -19,7 +19,7 @@ import static io.github.bonigarcia.wdm.DriverManagerType.FIREFOX;
 
 public class BrowserManager {
 
-    public static WebDriver driver;
+    public static WebDriver driver = null;
     @Before
     public static WebDriver createDriver() {
 
@@ -34,6 +34,8 @@ public class BrowserManager {
             case CHROME:
                 ChromeDriverManager.getInstance(CHROME).setup();
 //                System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+                //Sometimes you will find chrome compatability issue in that condition please uncomment above
+                // line and keep the chromedriver.exe 110 version in your c drive then it will work.
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
 
