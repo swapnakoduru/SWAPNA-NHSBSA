@@ -3,7 +3,7 @@ Feature:As a citizen of the UK
   I need to know what help I can get with my NHS costs
   So that I can get the treatment I need
 
-  Background: This is given
+  Background: The user should be on the landing page
     Given the user is on "Landing Page"
 
 
