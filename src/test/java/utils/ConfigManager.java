@@ -14,27 +14,29 @@ import static utils.BrowserManager.driver;
 
 
 public class ConfigManager {
-    private final Properties properties;
-    public ConfigManager(){
-        BufferedReader reader;
-        String propertyFilePath = "configs//configuration.properties";
-        try {
-            reader = new BufferedReader(new FileReader(propertyFilePath));
-            properties = new Properties();
-            try {
-                properties.load(reader);
-                reader.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-            throw new RuntimeException("Configuration.properties not found at " + propertyFilePath);
-        }
-    }
+
+//****The below code can be uncommented if we want to use config properties file to declare the browser name****//
+//    private final Properties properties;
+//    public ConfigManager(){
+//        BufferedReader reader;
+//        String propertyFilePath = "configs//configuration.properties";
+//        try {
+//            reader = new BufferedReader(new FileReader(propertyFilePath));
+//            properties = new Properties();
+//            try {
+//                properties.load(reader);
+//                reader.close();
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//        } catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//            throw new RuntimeException("Configuration.properties not found at " + propertyFilePath);
+//        }
+//    }
 
     public DriverType getBrowser() {
-        String browserName = properties.getProperty("browser");
+        String browserName = System.getProperty("browser");
         if(browserName == null || browserName.equalsIgnoreCase("chrome")) return DriverType.CHROME;
         else if(browserName.equalsIgnoreCase("firefox")) return DriverType.FIREFOX;
         else throw new RuntimeException("Browser Name Key value in Configuration.properties is not matched : " + browserName);

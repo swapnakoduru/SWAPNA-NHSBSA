@@ -23,6 +23,7 @@ public class PageUrls {
                 pageURLs.put("Do you need to take medication","https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/diabetes-medication");
                 pageURLs.put("Do you live permanently in a care home?","https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/care-home");
                 pageURLs.put("Do you get help from local council","https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/local-council-assessed");
+
         }
         public static String getPageUrl(String pageName){
                 setPageURLs();

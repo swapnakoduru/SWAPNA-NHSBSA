@@ -26,14 +26,14 @@ public class CommonMethods extends Hooks {
 
     public static void getValidatePage(String pageName) {
         driver.get(PageUrls.getPageUrl(pageName));
+        Assert.assertEquals(PageUrls.getPageUrl(pageName),driver.getCurrentUrl().replaceAll("#",""));
 
         try {
-           cookies.click();}
-         catch (Exception e) {
+            cookies.click();}
+        catch (Exception e) {
             e.printStackTrace();
         }
 
-        Assert.assertEquals(PageUrls.getPageUrl(pageName),driver.getCurrentUrl().replaceAll("#",""));
     }
 
     public void clickYes(){

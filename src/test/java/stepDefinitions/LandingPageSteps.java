@@ -19,6 +19,7 @@ public class LandingPageSteps extends Hooks {
     System.out.println("/////////////////////////");
     System.out.println("close the browser");
   }
+
   @When("the user clicks on start button")
   public void the_user_clicks_on_start_button() {
     landingPage.Start();

@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43be53bf-db8f-4855-86e0-a8c54d9b5ded" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/runTestRunner.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/NhsHelp.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NhsHelp.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/runTestRunner.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CommonMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/PageUrls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/PageUrls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +47,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/veera swapna/SWAPNA-NHSBSA&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/veera swapna/SWAPNA-NHSBSA&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -48,8 +60,11 @@
       <recent name="C:\Users\veera swapna\Desktop\NHS" />
       <recent name="C:\Users\veera swapna\Desktop\NHS\src\test" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\veera swapna\SWAPNA-NHSBSA" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="Shell Script.runTestRunner.sh">
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NHS" />
       <extension name="coverage">
@@ -76,10 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="runTestRunner.sh (1)" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/runTestRunner.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="runTestRunner.sh" type="ShConfigurationType" temporary="true">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/src/runTestRunner.sh" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/runTestRunner.sh" />
       <option name="SCRIPT_OPTIONS" value="" />
       <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
       <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
@@ -93,8 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Shell Script.runTestRunner.sh" />
+        <item itemvalue="Shell Script.runTestRunner.sh (1)" />
+        <item itemvalue="JUnit.TestRunner" />
       </list>
     </recent_temporary>
   </component>

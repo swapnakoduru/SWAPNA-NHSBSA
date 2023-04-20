@@ -11,12 +11,11 @@ public class LandingPage extends Hooks {
     @FindBy(how=How.XPATH,using="//*[@id=\"next-button\"]")
     public WebElement startButton;
     public LandingPage(){
-        PageFactory.initElements(driver, this);
+       PageFactory.initElements(driver, this);
     }
     public void Start()
     {
         startButton.submit();
-
     }
 
 
